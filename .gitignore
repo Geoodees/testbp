@@ -15,7 +15,13 @@ expo-env.d.ts
 *.p8
 *.p12
 *.key
+*.keystore
 *.mobileprovision
+
+# Android build outputs and caches
+android/app/build/
+android/.gradle/
+android/build/
 
 # Metro
 .metro-health-check*
@@ -37,3 +43,4 @@ yarn-error.*
 
 # FirebaseConfig.ts
 firebaseConfig.ts
+/components/FirebaseConfig.ts
